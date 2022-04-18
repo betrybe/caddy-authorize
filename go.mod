@@ -2,6 +2,8 @@ module github.com/greenpau/caddy-authorize
 
 go 1.16
 
+replace github.com/greenpau/caddy-authorize => ./
+
 require (
 	github.com/caddyserver/caddy/v2 v2.4.6
 	github.com/golang-jwt/jwt/v4 v4.1.0
