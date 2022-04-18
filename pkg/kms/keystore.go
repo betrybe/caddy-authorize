@@ -20,10 +20,10 @@ import (
 	"crypto/rand"
 	"crypto/x509"
 	"encoding/pem"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/shared"
+	"github.com/betrybe/caddy-authorize/pkg/user"
 	jwtlib "github.com/golang-jwt/jwt/v4"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	"github.com/greenpau/caddy-authorize/pkg/shared"
-	"github.com/greenpau/caddy-authorize/pkg/user"
 	"go.uber.org/zap"
 	"strings"
 )

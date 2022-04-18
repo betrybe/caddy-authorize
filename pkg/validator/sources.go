@@ -16,8 +16,8 @@ package validator
 
 import (
 	"context"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	"github.com/greenpau/caddy-authorize/pkg/user"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/user"
 	"net/http"
 	"strings"
 )

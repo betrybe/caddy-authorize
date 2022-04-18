@@ -15,12 +15,12 @@
 package authorize
 
 import (
+	"github.com/betrybe/caddy-authorize/pkg/authz"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp/caddyauth"
-	"github.com/greenpau/caddy-authorize/pkg/authz"
 	"github.com/satori/go.uuid"
 	"net/http"
 )

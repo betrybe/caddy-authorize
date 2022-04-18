@@ -22,14 +22,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/greenpau/caddy-authorize/internal/tests"
-	"github.com/greenpau/caddy-authorize/internal/testutils"
-	"github.com/greenpau/caddy-authorize/pkg/acl"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	"github.com/greenpau/caddy-authorize/pkg/kms"
-	"github.com/greenpau/caddy-authorize/pkg/options"
-	"github.com/greenpau/caddy-authorize/pkg/user"
-	logutils "github.com/greenpau/caddy-authorize/pkg/utils/log"
+	"github.com/betrybe/caddy-authorize/internal/tests"
+	"github.com/betrybe/caddy-authorize/internal/testutils"
+	"github.com/betrybe/caddy-authorize/pkg/acl"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/kms"
+	"github.com/betrybe/caddy-authorize/pkg/options"
+	"github.com/betrybe/caddy-authorize/pkg/user"
+	logutils "github.com/betrybe/caddy-authorize/pkg/utils/log"
 
 	"github.com/google/go-cmp/cmp"
 )

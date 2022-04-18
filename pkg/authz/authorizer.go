@@ -22,14 +22,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/greenpau/caddy-authorize/pkg/acl"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	"github.com/greenpau/caddy-authorize/pkg/handlers"
-	"github.com/greenpau/caddy-authorize/pkg/kms"
-	"github.com/greenpau/caddy-authorize/pkg/options"
-	"github.com/greenpau/caddy-authorize/pkg/shared/idp"
-	urlutils "github.com/greenpau/caddy-authorize/pkg/utils/url"
-	"github.com/greenpau/caddy-authorize/pkg/validator"
+	"github.com/betrybe/caddy-authorize/pkg/acl"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/handlers"
+	"github.com/betrybe/caddy-authorize/pkg/kms"
+	"github.com/betrybe/caddy-authorize/pkg/options"
+	"github.com/betrybe/caddy-authorize/pkg/shared/idp"
+	urlutils "github.com/betrybe/caddy-authorize/pkg/utils/url"
+	"github.com/betrybe/caddy-authorize/pkg/validator"
 	"go.uber.org/zap"
 )
 

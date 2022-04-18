@@ -16,9 +16,9 @@ package kms
 
 import (
 	"fmt"
+	"github.com/betrybe/caddy-authorize/internal/tests"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
 	"github.com/google/go-cmp/cmp"
-	"github.com/greenpau/caddy-authorize/internal/tests"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
 	"os"
 	"testing"
 )

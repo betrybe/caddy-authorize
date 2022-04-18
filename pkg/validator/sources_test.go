@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	//"github.com/greenpau/caddy-authorize/pkg/acl"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	// "github.com/greenpau/caddy-authorize/pkg/kms"
-	"github.com/greenpau/caddy-authorize/internal/tests"
-	"github.com/greenpau/caddy-authorize/internal/testutils"
-	"github.com/greenpau/caddy-authorize/pkg/options"
+	//"github.com/betrybe/caddy-authorize/pkg/acl"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	// "github.com/betrybe/caddy-authorize/pkg/kms"
+	"github.com/betrybe/caddy-authorize/internal/tests"
+	"github.com/betrybe/caddy-authorize/internal/testutils"
+	"github.com/betrybe/caddy-authorize/pkg/options"
 )
 
 func TestAuthorizationSources(t *testing.T) {

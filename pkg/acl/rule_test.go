@@ -17,8 +17,8 @@ package acl
 import (
 	"context"
 	"fmt"
-	"github.com/greenpau/caddy-authorize/internal/tests"
-	logutils "github.com/greenpau/caddy-authorize/pkg/utils/log"
+	"github.com/betrybe/caddy-authorize/internal/tests"
+	logutils "github.com/betrybe/caddy-authorize/pkg/utils/log"
 	"reflect"
 	"strings"
 	"testing"

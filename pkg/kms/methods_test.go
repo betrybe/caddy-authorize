@@ -15,7 +15,7 @@
 package kms
 
 import (
-	"github.com/greenpau/caddy-authorize/internal/tests"
+	"github.com/betrybe/caddy-authorize/internal/tests"
 	"testing"
 )
 
