@@ -1,4 +1,4 @@
-module github.com/greenpau/caddy-authorize
+module github.com/betrybe/caddy-authorize
 
 go 1.16
 
