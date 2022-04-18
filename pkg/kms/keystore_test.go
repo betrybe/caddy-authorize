@@ -16,10 +16,10 @@ package kms
 
 import (
 	"fmt"
+	"github.com/betrybe/caddy-authorize/internal/tests"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/user"
 	jwtlib "github.com/golang-jwt/jwt/v4"
-	"github.com/greenpau/caddy-authorize/internal/tests"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	"github.com/greenpau/caddy-authorize/pkg/user"
 	"testing"
 	"time"
 )

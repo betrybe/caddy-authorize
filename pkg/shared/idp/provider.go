@@ -15,7 +15,7 @@
 package idp
 
 import (
-	"github.com/greenpau/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
 	"sync"
 )
 

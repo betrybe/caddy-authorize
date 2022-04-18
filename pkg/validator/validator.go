@@ -19,14 +19,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/greenpau/caddy-authorize/pkg/acl"
-	"github.com/greenpau/caddy-authorize/pkg/cache"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	"github.com/greenpau/caddy-authorize/pkg/kms"
-	"github.com/greenpau/caddy-authorize/pkg/options"
-	"github.com/greenpau/caddy-authorize/pkg/shared/idp"
-	"github.com/greenpau/caddy-authorize/pkg/user"
-	addrutils "github.com/greenpau/caddy-authorize/pkg/utils/addr"
+	"github.com/betrybe/caddy-authorize/pkg/acl"
+	"github.com/betrybe/caddy-authorize/pkg/cache"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	"github.com/betrybe/caddy-authorize/pkg/kms"
+	"github.com/betrybe/caddy-authorize/pkg/options"
+	"github.com/betrybe/caddy-authorize/pkg/shared/idp"
+	"github.com/betrybe/caddy-authorize/pkg/user"
+	addrutils "github.com/betrybe/caddy-authorize/pkg/utils/addr"
 )
 
 type guardian interface {

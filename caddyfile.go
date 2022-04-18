@@ -24,11 +24,11 @@ import (
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp/caddyauth"
 
-	"github.com/greenpau/caddy-authorize/pkg/acl"
-	"github.com/greenpau/caddy-authorize/pkg/authz"
-	"github.com/greenpau/caddy-authorize/pkg/kms"
-	"github.com/greenpau/caddy-authorize/pkg/shared/idp"
-	cfgutils "github.com/greenpau/caddy-authorize/pkg/utils/cfg"
+	"github.com/betrybe/caddy-authorize/pkg/acl"
+	"github.com/betrybe/caddy-authorize/pkg/authz"
+	"github.com/betrybe/caddy-authorize/pkg/kms"
+	"github.com/betrybe/caddy-authorize/pkg/shared/idp"
+	cfgutils "github.com/betrybe/caddy-authorize/pkg/utils/cfg"
 )
 
 const badRepl string = "ERROR_BAD_REPL"

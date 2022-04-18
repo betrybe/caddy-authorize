@@ -17,10 +17,10 @@ package testutils
 import (
 	"context"
 	"fmt"
-	"github.com/greenpau/caddy-authorize/pkg/acl"
-	"github.com/greenpau/caddy-authorize/pkg/kms"
-	"github.com/greenpau/caddy-authorize/pkg/user"
-	logutils "github.com/greenpau/caddy-authorize/pkg/utils/log"
+	"github.com/betrybe/caddy-authorize/pkg/acl"
+	"github.com/betrybe/caddy-authorize/pkg/kms"
+	"github.com/betrybe/caddy-authorize/pkg/user"
+	logutils "github.com/betrybe/caddy-authorize/pkg/utils/log"
 	"net/http"
 	"time"
 )

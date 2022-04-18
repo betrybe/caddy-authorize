@@ -16,11 +16,11 @@ package authorize
 
 import (
 	"fmt"
+	"github.com/betrybe/caddy-authorize/internal/tests"
+	"github.com/betrybe/caddy-authorize/internal/testutils"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/caddytest"
-	"github.com/greenpau/caddy-authorize/internal/tests"
-	"github.com/greenpau/caddy-authorize/internal/testutils"
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"

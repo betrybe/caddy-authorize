@@ -17,8 +17,8 @@ package kms
 import (
 	"encoding/csv"
 	"fmt"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	cfgutils "github.com/greenpau/caddy-authorize/pkg/utils/cfg"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	cfgutils "github.com/betrybe/caddy-authorize/pkg/utils/cfg"
 	"os"
 	"sort"
 	"strconv"

@@ -16,10 +16,10 @@ package validator
 
 import (
 	"context"
-	"github.com/greenpau/caddy-authorize/pkg/errors"
-	// "github.com/greenpau/caddy-authorize/pkg/user"
-	"github.com/greenpau/caddy-authorize/pkg/shared/idp"
-	addrutils "github.com/greenpau/caddy-authorize/pkg/utils/addr"
+	"github.com/betrybe/caddy-authorize/pkg/errors"
+	// "github.com/betrybe/caddy-authorize/pkg/user"
+	"github.com/betrybe/caddy-authorize/pkg/shared/idp"
+	addrutils "github.com/betrybe/caddy-authorize/pkg/utils/addr"
 	"net/http"
 	"strings"
 )
